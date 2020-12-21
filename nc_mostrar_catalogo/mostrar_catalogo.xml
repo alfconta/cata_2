@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+     
+    <menuitem name="chart account"  id="menu_cuenta_contable"
+       parent="account.account_reports_management_menu" />    
+    <menuitem name="chart account"  action="account.action_account_form" 
+    id="menu_cuenta_contable_report"  parent="menu_cuenta_contable" />
+
+
+    
+
+   
+</odoo>
